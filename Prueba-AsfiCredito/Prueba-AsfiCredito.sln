@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba-AsfiCredito", "Prueba-AsfiCredito.csproj", "{EDFD792E-0856-4365-A069-4E0B6A0D32F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksAPI", "..\TasksAPI\TasksAPI.csproj", "{2AAD05F7-32FE-4331-9C32-7755FBABBF5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDFD792E-0856-4365-A069-4E0B6A0D32F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFD792E-0856-4365-A069-4E0B6A0D32F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFD792E-0856-4365-A069-4E0B6A0D32F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFD792E-0856-4365-A069-4E0B6A0D32F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAD05F7-32FE-4331-9C32-7755FBABBF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAD05F7-32FE-4331-9C32-7755FBABBF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAD05F7-32FE-4331-9C32-7755FBABBF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAD05F7-32FE-4331-9C32-7755FBABBF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC0F1BF4-05C6-44E8-B892-15F3C68FE4D2}
+	EndGlobalSection
+EndGlobal
