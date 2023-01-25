@@ -20,6 +20,8 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 );
 // Repositories
 builder.Services.AddScoped<ITasksRepository, TasksRepository>();
+// UnitOfWork
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork<ApplicationContext>>();
 // BLL
 builder.Services.AddScoped<ITaskBLL, TaskBLL>();
 
